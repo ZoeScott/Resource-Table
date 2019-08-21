@@ -1,0 +1,39 @@
+/* CSS Rulesets consist of three parts
+Selector to selct whaty youre styling*/
+
+
+
+
+
+table {
+    /*set the width of table elements to 100% of parent element*/
+    background-color: lightblue;
+    text-align: center;
+    width: 100%; 
+}
+
+body {
+        font-size: 24pt;
+        
+}
+
+h1 { 
+color: purple;
+/*aligning h1 text to the cent of page*/
+text-align: center;
+}
+
+th {
+    font-size: 23pt;
+text-decoration: underline;
+background-color: lightblue;
+}
+
+tr {background-color: lightblue}
+
+table, th, td {
+    border-width: 3px;
+    border-color: rgb(14, 79, 163);
+    border-style: solid;
+    border-collapse: collapse;
+}
